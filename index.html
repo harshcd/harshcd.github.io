@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- UNICONS-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Harsh</title>
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Harsh</title>
 </head>
 <body>
     <!-- Header -->
@@ -25,11 +23,6 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#about" class="nav_link">
-                            <i class="uil uil-user nav_icon"></i> About
-                        </a>
-                    </li>
-                    <li class="nav_item">
                         <a href="#skills" class="nav_link">
                             <i class="uil uil-briefcase nav_icon"></i> Skills
                         </a>
@@ -37,11 +30,6 @@
                     <li class="nav_item">
                         <a href="#portfolio" class="nav_link">
                             <i class="uil uil-scenery nav_icon"></i> Portfolio
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">
-                            <i class="uil uil-message nav_icon"></i> Contact me
                         </a>
                     </li>
                 </ul>
@@ -67,35 +55,35 @@
         <div class="home_container container grid">
             <div class="home_content grid">
                 <div class="home_social">
-                    <a href="https://www.linkedin.com/in/harshcd" target="_blank" class="home_social-icon">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
-                    <a href="https://www.twitter.com/harshcd/" target="_blank" class="home_social-icon">
-                        <i class="uil uil-twitter-alt"></i>
-                    </a>
                     <a href="https://github.com/harshcd" target="_blank" class="home_social-icon">
                         <i class="uil uil-github-alt"></i>
                     </a>
+                    <a href="tel:9033066890" class="home_social-icon" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'});">
+                        <i class="uil uil-phone"></i>
+                    </a>
+                    <a href="mailto:chaklasiya@pm.me" target="_blank" class="home_social-icon">
+                        <i class="uil uil-envelope contact_information"></i>
+                    </a>
+
                 </div>
 
-                <div class="home_img">
-                    <div class="home_logo">
-                        <h1>HC</h1>
-                    </div>
-                </div>
+                <img src="assets/img/about1.jpg" alt="profile image" class="about_img">
 
                 <div class="home_data">
                     <h1 class="home_title">Hi, I'm Harsh</h1>
                     <h3 class="home_subtitle">Fresher software engineer</h3>
-                    <p class="home_description">looking for full stack developer, focusing on producing quality work</p>
+                    <p class="home_description">Ability to work with C++, Android, Java, and PHP. Can work well under pressure and make the best of any situation. Passionate individual with great interpersonal and communication skills.
+                    </br>Focusing on producing quality work
+                    </p>
                     <a download="" href="assets/pdf/harshdchaklasiya.pdf" class="button button--flex">
                         Download CV<i class="uil uil-file-download button_icon"></i> 
                     </a>
                 </div>
+                
             </div>
 
             <div class="home_scroll">
-                <a href="#about" class="home_scroll-button button--flex">
+                <a href="#skills" class="home_scroll-button button--flex">
                     <i class="uil uil-mouse-alt home_scroll-mouse"></i>
                     <span class="home_scroll-name">Scroll down</span>
                     <i class="uil uil-arrow-down home_scroll-arrow"></i>
@@ -104,73 +92,38 @@
         </div>
     </section>
 
-    <!-- About -->
-    <section class="about section" id="about">
-        <h2 class="section_title">About</h2>
-        <span class="section_subtitle">My introduction</span>
-
-        <div class="about_container container grid">
-            <img src="assets/img/about1.jpg" alt="" class="about_img">
-
-            <div class="about_data">
-                <p class="about_description">
-                    Thruout my student life, i learned to develop in a friendly environment, diverse in terms of cultural and educational experiences. I am committed to being a versatile app developer and devops. I consider myself an adaptable and motivated learner with an interest in new programming technologies, frameworks and continual self-improvement.                    
-                </p>
-
-                <div class="about_info">
-
-                    <div>
-                        <span class="about_info-title">01</span>
-                        <span class="about_info-name">Internship<br> in wordpress</span>
-                    </div>
-
-                    <div>
-                        <span class="about_info-title">02</span>
-                        <span class="about_info-name">Career project <br> as student</span>
-                    </div>
-                </div>
-
-                <div class="about_buttons">
-                    <a  href="#contact" class="button button--flex">
-                        Contact me<i class="uil uil-message button_icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
    
     <!-- Skills -->
     <section class="services section" id="skills">
         <h2 class="section_title">Skills</h2>
-        <span class="section_subtitle">What I learned so far..</span>
+        <span class="section_subtitle">What i learned so far..</span>
 
         <div class="services_container container grid">
-            <!-- skills - 1  -->
+            <!-- skills - 1  -->    
             <div class="services_content">
                 <div>
                     <i class="uil uil-arrow services_icon"></i>
                     <h3 class="services_title">Languages</h3>
 
                     <span class="button button--flex button--small button--link services_button">
-                        View More
+                        Know more
                         <i class="uil uil-arrow-right button_icon"></i>
                     </span>
 
                     <div class="services_modal">
                         <div class="services_modal-content">
-                            <h4 class="services_modal-title">Languages</h4>
+                            <h4 class="services_modal-title">Fundamental of programming languages</h4>
                             <i class="uil uil-times services_modal-close"></i>
 
                             <ul class="services_modal-services">
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>C/ C++</p>
+                                    <p>C, C++</p>
                                 </li>
 
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Java/ hibernate/ spring</p>
+                                    <p>Java, hibernate, spring</p>
                                 </li>
 
                                 <li class="services_modal-service">
@@ -180,28 +133,28 @@
 
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>HTML, CSS, JS</p>
+                                    <p>HTML, CSS, JS, node</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
 
             <!-- Services - 2  -->
             <div class="services_content">
-                <div>                    
+                <div>
                     <i class="uil uil-database services_icon"></i>
-                    <h3 class="services_title">Backend</h3>
+                    <h3 class="services_title">Database</h3>
 
                     <span class="button button--flex button--small button--link services_button">
-                        View More
+                        Know more
                         <i class="uil uil-arrow-right button_icon"></i>
                     </span>
 
                     <div class="services_modal">
                         <div class="services_modal-content">
-                            <h4 class="services_modal-title">Backend </h4>
+                            <h4 class="services_modal-title">Talking about handling databases </h4>
                             <i class="uil uil-times services_modal-close"></i>
 
                             <ul class="services_modal-services">
@@ -212,12 +165,12 @@
 
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>mongodb</p>
+                                    <p>Mongodb</p>
                                 </li>
 
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>php frameworks</p>
+                                    <p>Wordpress</p>
                                 </li>
 
                                 <li class="services_modal-service">
@@ -237,13 +190,13 @@
                     <h3 class="services_title">Other</h3>
 
                     <span class="button button--flex button--small button--link services_button">
-                        View More
+                        Know more
                         <i class="uil uil-arrow-right button_icon"></i>
                     </span>
 
                     <div class="services_modal">
                         <div class="services_modal-content">
-                            <h4 class="services_modal-title">Design UX/UI</h4>
+                            <h4 class="services_modal-title">Skills I acquired due to my interest</h4>
                             <i class="uil uil-times services_modal-close"></i>
 
                             <ul class="services_modal-services">
@@ -259,7 +212,7 @@
 
                                 <li class="services_modal-service">
                                     <i class="uil uil-check-circle services_modal-icon"></i>
-                                    <p>Video editing / Ads designing</p>
+                                    <p>Video editing, Logo designing</p>
                                 </li>
                             </ul>
                         </div>
@@ -278,10 +231,12 @@
 
         <div class="portfolio_container container grid">
             <div class="portfolio_content">
-                <a href="https://tenncricclub.netlify.app/" target="_blank"><img src="assets/img/proj1.jpg" alt="" class="portfolio_img"></a>
+                <a href="https://tenncricclub.netlify.app/" target="_blank">
+                    <img src="assets/img/proj1.jpg" alt="" class="portfolio_img"></a>
                 <div class="portfolio_data">
                     <span class="portfolio_subtitle">Diploma project</span>
-                    <a href="https://tenncricclub.netlify.app/" target="_blank"><h2 class="portfolio_title">Native android application for cricket organizer.</h2></a>
+                    <a href="https://tenncricclub.netlify.app/" target="_blank">
+                        <h2 class="portfolio_title">Native android application for cricket organizer and cricket lover.</h2></a>
                     <a href="https://tenncricclub.netlify.app/" target="_blank" class="button button--flex button--small portfolio_button">
                         See more<i class="uil uil-arrow-right button_icon"></i>
                     </a>
@@ -289,47 +244,17 @@
             </div>
 
             <div class="portfolio_content">
-                <a href="https://scanit.netlify.app/" target="_blank"><img src="assets/img/proj2.jpg" alt="" class="portfolio_img"></a>
+                <a href="https://scanit.netlify.app/" target="_blank">
+                    <img src="assets/img/proj2.jpg" alt="" class="portfolio_img"></a>
                 <div class="portfolio_data">
                     <span class="portfolio_subtitle">Degree project</span>
-                    <a href="https://scanit.netlify.app/" target="_blank"><h2 class="portfolio_title">App for supermakets and their customer to buy things using barcode.</h2></a>
+                    <a href="https://scanit.netlify.app/" target="_blank">
+                        <h2 class="portfolio_title">App for supermakets and their customer to buy products using barcode.</h2></a>
                     <a href="https://scanit.netlify.app/" target="_blank" class="button button--flex button--small portfolio_button">
                         See more<i class="uil uil-arrow-right button_icon"></i>
                     </a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Contact me -->
-    <section class="contact section" id="contact">
-        <h2 class="section_title">Contact Me</h2>
-        <span class="section_subtitle">Get in touch</span>
-
-        <div class="contact_container container grid">
-            <div>
-                <div class="contact_information">
-                    <i class="uil uil-phone contact_icon"></i>
-
-                    <div>
-                        <h3 class="contact_title">Call Me</h3>
-                        <span class="contact_subtitle">+91 90330-66890</span>
-                    </div>
-                </div>
-
-                <div  class="contact_information">
-                    <i  class="uil uil-envelope contact_icon"></i>
-
-                    <div >
-                        <h3 class="contact_title">E-mail</h3>
-                        <span class="contact_subtitle" >       
-                            <form method="post" action="mailto:ghanshyam.chaklasiya@gmail.com">chaklasiya@pm.me</form></span>
-                    </div>
-                    
-                </div>
-
-            </div>
-
         </div>
     </section>
 
@@ -339,28 +264,9 @@
             <div class="footer_container container grid">
                 <div>
                     <h1 class="footer_title">Harsh</h1>
-                    <span class="footer_subtitle">Software engineer</span>
-                </div>
-
-                <ul class="footer_links">
-                    <li class="footer_copy">
-                        &#169;  
-                        <script type="text/javascript">document.write(new Date().getFullYear())</script>
-                        Harsh Chaklasiya. 
-                    </li>
-                </ul>
-
-                <div class="footer_socials">
-                    <a href="https://www.linkedin.com/in/harshcd" target="_blank" class="footer_social">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
-                    <a href="https://github.com/harshcd" target="_blank" class="footer_social">
-                        <i class="uil uil-github-alt"></i>
-                    </a>
+                    <span class="footer_subtitle">@ <script type="text/javascript">document.write(new Date().getFullYear())</script> Harsh Chaklasiya.</span>
                 </div>
             </div>
-
-           
         </div>
     </footer>
 
@@ -369,7 +275,11 @@
         <i class="uil uil-arrow-up scrollup_icon"></i>
     </a>
 
+
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <!-- UNICONS-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </body>
 </html>
